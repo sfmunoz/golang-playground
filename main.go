@@ -1,7 +1,7 @@
 //
 // vim: set foldmethod=marker:
 //
-// URL:  https://github.com/sfmunoz/goex
+// URL:  https://github.com/sfmunoz/golang-playground
 // Date: Fri Oct  6 03:31:34 PM UTC 2023
 //
 // Compile/run:
@@ -18,14 +18,14 @@ package main
 import (
 	"flag"
 	"fmt"
-	cc "github.com/sfmunoz/goex/c_call"
-	co "github.com/sfmunoz/goex/concurrency"
-	ct "github.com/sfmunoz/goex/ctx"
-	hj "github.com/sfmunoz/goex/http_json"
-	mn "github.com/sfmunoz/goex/make_vs_new"
-	pr "github.com/sfmunoz/goex/pointers_refs"
-	re "github.com/sfmunoz/goex/reflection"
-	si "github.com/sfmunoz/goex/structs_ints"
+	cc "github.com/sfmunoz/golang-playground/c_call"
+	co "github.com/sfmunoz/golang-playground/concurrency"
+	ct "github.com/sfmunoz/golang-playground/ctx"
+	hj "github.com/sfmunoz/golang-playground/http_json"
+	mn "github.com/sfmunoz/golang-playground/make_vs_new"
+	pr "github.com/sfmunoz/golang-playground/pointers_refs"
+	re "github.com/sfmunoz/golang-playground/reflection"
+	si "github.com/sfmunoz/golang-playground/structs_ints"
 	"os"
 	"strconv"
 	"strings"
@@ -50,7 +50,7 @@ var EXAMPLES = [][]any{
 // {{{ func usage()
 
 func usage() {
-	fmt.Println("goex - golang examples")
+	fmt.Println("golang playground")
 	fmt.Println("")
 	fmt.Println("Usage:")
 	fmt.Println("")
@@ -73,7 +73,7 @@ func usage() {
 	fmt.Println("")
 	fmt.Println("Reference:")
 	fmt.Println("")
-	fmt.Println("  https://github.com/sfmunoz/goex/")
+	fmt.Println("  https://github.com/sfmunoz/golang-playground/")
 	fmt.Println("")
 }
 

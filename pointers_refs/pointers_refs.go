@@ -1,7 +1,7 @@
 //
 // vim: set foldmethod=marker:
 //
-// URL:  https://github.com/sfmunoz/goex
+// URL:  https://github.com/sfmunoz/golang-playground
 // Date: Tue Oct  3 04:46:23 PM UTC 2023
 //
 

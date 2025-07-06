@@ -1,4 +1,4 @@
-# GoEx: Golang Examples
+# Golang Playground
 
 This repository holds [Go](https://go.dev/) snippets created while I'm recalling and learning the language
 
