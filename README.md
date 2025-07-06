@@ -5,6 +5,7 @@ This repository holds [Go](https://go.dev/) snippets created while I'm recalling
 - [TL;DR](#tldr)
 - [References](#references)
 - [Packages vs Modules](#packages-vs-modules)
+  - [go.mod local module: require + replace](#gomod-local-module-require--replace)
 - [Core](#core)
 
 ## TL;DR
@@ -113,6 +114,21 @@ $ go test
 ok: got == want == 'Hi, World. Welcome!'
 PASS
 ok      example.com/greetings   0.002s
+```
+
+### go.mod local module: require + replace
+
+```
+module github.com/user/app
+
+go 1.24.1
+
+require (
+	(...)
+	test.com/pkg1 v0.0.0-00010101000000-000000000000
+)
+
+replace test.com/pkg1 => ../pkg1
 ```
 
 ## Core
