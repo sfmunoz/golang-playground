@@ -1,10 +1,46 @@
-# Golang Playground
+# Golang playground
 
 This repository holds [Go](https://go.dev/) snippets created while I'm recalling and learning the language
 
+- [TL;DR](#tldr)
 - [References](#references)
 - [Packages vs Modules](#packages-vs-modules)
 - [Core](#core)
+
+## TL;DR
+
+```
+$ git clone https://github.com/sfmunoz/golang-playground.git
+
+$ cd golang-playground
+
+$ go run main.go
+golang playground
+
+Usage:
+
+  $ go run main.go [example-id-or-number]
+
+Examples:
+
+  $ go run main.go c_call
+  $ go run main.go 1
+
+Available examples:
+
+  1: c_call .......... call C code from Go
+  2: concurrency ..... concurrency
+  3: ctx ............. context
+  4: http_json ....... HTTP/JSON client/server
+  5: make_vs_new ..... make vs new
+  6: pointers_refs ... pointers and references
+  7: reflection ...... reflection
+  8: structs_ints .... structures and interfaces
+
+Reference:
+
+  https://github.com/sfmunoz/golang-playground/
+```
 
 ## References
 
