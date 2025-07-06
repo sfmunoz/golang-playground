@@ -2,6 +2,10 @@
 
 This repository holds [Go](https://go.dev/) snippets created while I'm recalling and learning the language
 
+- [References](#references)
+- [Packages vs Modules](#packages-vs-modules)
+- [Core](#core)
+
 ## References
 
 * [Effective Go](https://go.dev/doc/effective_go)
