@@ -49,6 +49,9 @@ Reference:
 * [A Tour of Go](https://go.dev/tour/)
 * [Go Programming](https://www.youtube.com/watch?v=CF9S4QZuV30) ([Derek Banas](https://www.youtube.com/@derekbanas))
   * [Cheat sheet](https://www.newthinktank.com/2015/02/go-programming-tutorial/)
+* [https://github.com/golang-standards/project-layout](https://github.com/golang-standards/project-layout)
+  * [https://go.dev/doc/modules/layout](https://go.dev/doc/modules/layout)
+  * [https://go.dev/blog/using-go-modules](https://go.dev/blog/using-go-modules)
 
 ## Packages vs Modules
 
