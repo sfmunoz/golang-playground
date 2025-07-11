@@ -164,4 +164,5 @@ replace test.com/pkg1 => ../pkg1
 - [reflection.go](reflection/reflection.go): reflection
   - [Go (Golang) Reflection Tutorial](https://www.youtube.com/watch?v=f4aUrm7N5DU)
 - [structs_ints.go](structs_ints/structs_ints.go): structs and interfaces
-
+- [structs_tags.go](structs_tags/structs_tags.go): structs and tags
+  - [Creating custom struct tags in Golang is awesome!](https://www.youtube.com/watch?v=vtHZb7gNlbw)

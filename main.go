@@ -26,6 +26,7 @@ import (
 	pr "github.com/sfmunoz/golang-playground/pointers_refs"
 	re "github.com/sfmunoz/golang-playground/reflection"
 	si "github.com/sfmunoz/golang-playground/structs_ints"
+	st "github.com/sfmunoz/golang-playground/structs_tags"
 	"os"
 	"strconv"
 	"strings"
@@ -43,6 +44,7 @@ var EXAMPLES = [][]any{
 	{"pointers_refs", "pointers and references", func() { pr.Main() }},
 	{"reflection", "reflection", func() { re.Main() }},
 	{"structs_ints", "structures and interfaces", si.Main},
+	{"structs_tags", "structures and tags", st.Main},
 }
 
 // }}}
