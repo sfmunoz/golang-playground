@@ -25,6 +25,8 @@ var mainTpl string = `{{ template "header" . }}
 - {{ .Name }}: {{ .Age }}
 {{ end -}}
 {{ template "footer" . }}
+{{ block "b1" . }}{{ .Title }} (block){{ end }}
+{{ define "b2" }}{{ .Title }} (define + template){{ end }}{{ template "b2" . }}
 `
 
 type Person struct {
