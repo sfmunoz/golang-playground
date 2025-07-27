@@ -170,5 +170,7 @@ replace test.com/pkg1 => ../pkg1
   - [Creating custom struct tags in Golang is awesome!](https://www.youtube.com/watch?v=vtHZb7gNlbw)
 - [templates.go](templates/templates.go): templates
   - [A Crash Course on Go Templates](https://www.youtube.com/watch?v=k5wJv4XO7a0)
+    - A template is essentially a `map[string]*Template`
+    - `{{ block "c" . }}text{{ end }}` == `{{ define "c" }}text{{ end }}{{ template "c" . }}`
   - [Golang documentation for the `text/template` package](https://pkg.go.dev/text/template)
   - [Golang documentation for the `html/template` package](https://pkg.go.dev/html/template)
