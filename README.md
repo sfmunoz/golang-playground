@@ -37,6 +37,8 @@ Available examples:
   6: pointers_refs ... pointers and references
   7: reflection ...... reflection
   8: structs_ints .... structures and interfaces
+  9: structs_tags .... structures and tags
+ 10: templates ....... templates
 
 Reference:
 
