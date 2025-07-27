@@ -27,6 +27,7 @@ import (
 	re "github.com/sfmunoz/golang-playground/reflection"
 	si "github.com/sfmunoz/golang-playground/structs_ints"
 	st "github.com/sfmunoz/golang-playground/structs_tags"
+	tp "github.com/sfmunoz/golang-playground/templates"
 	"os"
 	"strconv"
 	"strings"
@@ -45,6 +46,7 @@ var EXAMPLES = [][]any{
 	{"reflection", "reflection", func() { re.Main() }},
 	{"structs_ints", "structures and interfaces", si.Main},
 	{"structs_tags", "structures and tags", st.Main},
+	{"templates", "templates", tp.Main},
 }
 
 // }}}
